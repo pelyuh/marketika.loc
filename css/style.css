@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lato', sans-serif, 'Montserrat', sans-serif;
+}
+h1, h2, p {
+    margin: 0;
+}
+
+.section-outer {}
+.section-inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.section-header {
+    color: #ffffff;
+    background: url("../img/bg.png") no-repeat 50% 50%;
+    background-size: cover ;
+
+    position: inherit;
+}
+
+.section-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: #142729;
+    opacity: 0.47;
+}
+
+.section-header .section-inner {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    flex-shrink: 1;
+}
+
+.section-header-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.section-header-wraper {
+    margin: 0 auto;
+}
+
+.section-header-wraper__title {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+
+    text-align: center;
+}
+
+.section-header-wraper__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+    text-align: center;
+}
+
+.section-header-wraper__form {
+    display: flex;
+}
+
+.section-header-wraper__form-input{}
+.section-header-wraper__form-button{}
