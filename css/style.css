@@ -95,6 +95,7 @@ h1, h2, h3, p {
 
 .main-content {
   display: flex;
+  padding-bottom: 110px;
   border-bottom: 1px solid #6c6c6c; }
   .main-content .main-content-text-wrapper {
     max-width: 50%;
@@ -119,3 +120,26 @@ h1, h2, h3, p {
   .main-content .main-content-video-wrapper {
     max-width: 50%;
     margin-left: 40px; }
+
+.main-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px; }
+  .main-info .main-info-item {
+    max-width: 367px;
+    text-align: center;
+    margin-bottom: 130px; }
+    .main-info .main-info-item img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px; }
+    .main-info .main-info-item h3 {
+      color: #414141;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 15px; }
+    .main-info .main-info-item p {
+      color: #6c6c6c;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px; }
