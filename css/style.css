@@ -15,7 +15,8 @@ h1, h2, h3, p {
   color: #ffffff;
   background: url("../img/bg.png") no-repeat center center;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  margin-bottom: 120px; }
   .section-header .section-inner {
     height: 100vh;
     position: relative;
@@ -87,3 +88,34 @@ h1, h2, h3, p {
         background: linear-gradient(to right, #fe985b, #fe4fa7);
         outline: none;
         font-size: 18px; }
+
+.container {
+  width: 1164px;
+  margin: 0 auto; }
+
+.main-content {
+  display: flex;
+  border-bottom: 1px solid #6c6c6c; }
+  .main-content .main-content-text-wrapper {
+    max-width: 50%;
+    margin-right: 40px; }
+    .main-content .main-content-text-wrapper h2 {
+      color: #414141;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 51px;
+      padding-bottom: 60px; }
+    .main-content .main-content-text-wrapper h3 {
+      color: #414141;
+      font-size: 18px;
+      font-weight: 700;
+      padding-bottom: 15px; }
+    .main-content .main-content-text-wrapper p {
+      color: #6c6c6c;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      padding-bottom: 20px; }
+  .main-content .main-content-video-wrapper {
+    max-width: 50%;
+    margin-left: 40px; }

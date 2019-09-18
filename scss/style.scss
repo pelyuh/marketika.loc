@@ -26,6 +26,8 @@ $color-white: #ffffff;
 
   position: relative;
 
+  margin-bottom: 120px;
+
   .section-inner {
     height: 100vh;
     position: relative;
@@ -121,6 +123,50 @@ $color-white: #ffffff;
           }
       }
     }
-
   }
 }
+
+.container {
+  width: 1164px;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+
+  border-bottom: 1px solid #6c6c6c;
+
+  .main-content-text-wrapper {
+    max-width: 50%;
+    margin-right: 40px;
+
+    h2 {
+      color: #414141;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 51px;
+      padding-bottom: 60px;
+    }
+
+    h3 {
+      color: #414141;
+      font-size: 18px;
+      font-weight: 700;
+      padding-bottom: 15px;
+    }
+
+    p {
+      color: #6c6c6c;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .main-content-video-wrapper {
+    max-width: 50%;
+    margin-left: 40px;
+  }
+}
+
