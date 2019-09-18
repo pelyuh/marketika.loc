@@ -127,7 +127,7 @@ $color-white: #ffffff;
 }
 
 .container {
-  width: 1164px;
+  max-width: 1164px;
   margin: 0 auto;
 }
 
@@ -138,7 +138,7 @@ $color-white: #ffffff;
   border-bottom: 1px solid #6c6c6c;
 
   .main-content-text-wrapper {
-    max-width: 50%;
+    width: 50%;
     margin-right: 40px;
 
     h2 {
@@ -166,19 +166,19 @@ $color-white: #ffffff;
   }
 
   .main-content-video-wrapper {
-    max-width: 50%;
+    width: 50%;
     margin-left: 40px;
   }
 }
 
 .main-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   margin-top: 90px;
 
   .main-info-item {
-    max-width: 367px;
+    width: 30%;
     text-align: center;
 
     margin-bottom: 130px;
@@ -203,6 +203,54 @@ $color-white: #ffffff;
       font-size: 16px;
       font-weight: 300;
       line-height: 28px;
+    }
+  }
+}
+
+.main-founder {
+  background-color: #f6fafd;
+
+  display: flex;
+
+  .main-founder-foto {
+    width: 44%;
+
+    padding-top: 35px;
+
+    text-align: right;
+
+    img {
+      width: 395px;
+      height: 648px;
+    }
+  }
+
+  .main-founder-info {
+    width: 66%;
+
+    align-self: center;
+
+    padding-left: 55px;
+
+    .main-founder-info-text {
+      max-width: 550px;
+
+      color: #414141;
+      font-size: 24px;
+      line-height: 40px;
+
+      padding-bottom: 40px;
+    }
+
+    .main-founder-info-name {
+      color: #414141;
+      font-size: 20px;
+      font-weight: 400;
+
+      span {
+        font-size: 24px;
+        font-weight: 700;
+      }
     }
   }
 }
